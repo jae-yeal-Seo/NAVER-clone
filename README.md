@@ -26,3 +26,7 @@ inline(text-align:centerとか適用されられる)-block(width, height持て�
 11. width, height, paddingで切られたイメージはpadding領域まで含めて表示される。\
 (background-imageはタグのコンテンツではない)
 12. paddingは自分とコンテンツとの余白だ。コンテンツとして子タグがある場合は子タグと親タグの余白になる。
+13. background-sizeについてよく整理されているぺーじ：https://devjhs.tistory.com/611
+
+14. background-sizeとbackground-positionの関係は？
+15. header-hamburgerがなくなった理由は？
