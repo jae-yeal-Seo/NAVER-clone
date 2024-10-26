@@ -28,5 +28,8 @@ inline(text-align:centerとか適用されられる)-block(width, height持て�
 12. paddingは自分とコンテンツとの余白だ。コンテンツとして子タグがある場合は子タグと親タグの余白になる。
 13. background-sizeについてよく整理されているぺーじ：https://devjhs.tistory.com/611
 
-14. background-sizeとbackground-positionの関係は？
-15. header-hamburgerがなくなった理由は？
+14. background-position: (写真が移動する)
+x軸の値を増やしたら、写真が右の方に移動する。
+y軸の値を増やしたら、写真が下の方に移動する。
+
+15. position: absolute は、基本的に一番近い先祖要素の中で position が relative、absolute、fixed、または sticky に設定されている要素を基準に位置が決まります。
