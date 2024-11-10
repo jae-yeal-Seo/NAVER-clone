@@ -32,4 +32,15 @@ inline(text-align:centerとか適用されられる)-block(width, height持て�
 x軸の値を増やしたら、写真が右の方に移動する。
 y軸の値を増やしたら、写真が下の方に移動する。
 
-15. position: absolute は、基本的に一番近い先祖要素の中で position が relative、absolute、fixed、または sticky に設定されている要素を基準に位置が決まります。
+15. position: absoluteのタグは、基本的に一番近い先祖要素の中で position が staticではないタグを基準で動く。つまり、先祖要素のポジション設定でposition: absoluteの場所の基準を決められる。ちなみに、先祖要素が全部staticなら、<body>タグを基準に動く。
+
+16. position:relativeは、もともとあった場所(static基準)を基準にして移動します。
+left, right, top, bottom（方向）のピクセル：「方向」から「ピクセル」だけずれる
+
+17. 画面でいつも同じところにあるUIとかはposition:
+
+18. position:sticky：普段はabsoluteみたいにあり、スクロールを動かしたらfixedみたいに作用するオプション
+
+19. position : static, relative, absolute, sticky, fixed 
+
+20. z-indexは兄弟タグ同士だけ適用される。
