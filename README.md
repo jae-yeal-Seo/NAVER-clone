@@ -43,4 +43,7 @@ left, right, top, bottom（方向）のピクセル：「方向」から「ピ�
 
 19. position : static, relative, absolute, sticky, fixed 
 
-20. z-indexは兄弟タグ同士だけ適用される。
+20. ::before, ::after → DOM上では表示されない仮想タグをCSSで作る。
+特定のIDを持つすべてのタグの前後に特定のコンテンツを追加したい場合に便利だ。
+
+21. z-indexは兄弟タグ同士だけ適用される。
